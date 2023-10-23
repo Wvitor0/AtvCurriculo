@@ -1,0 +1,29 @@
+{
+  "name": "node-api-postgres",
+  "version": "1.0.0",
+  "description": "RESTful API with Node.js, Express, and PostgreSQL",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "pg": "^8.11.3",
+    "pg-pool": "^3.6.1",
+    "sequelize": "^6.33.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.2",
+    "nodemon": "^3.0.1"
+  }
+}

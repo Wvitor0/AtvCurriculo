@@ -8,6 +8,7 @@ const pool = new Pool({
   port: 5432,
 })
 
+//abaixo estao os metodos get, post, put, delete
 const getCurriculo = (request, response) => {
     pool.query('SELECT * FROM curriculo ORDER BY id ASC', (error, results) => {
       if (error) {

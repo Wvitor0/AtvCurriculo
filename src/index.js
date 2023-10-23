@@ -12,7 +12,7 @@ app.use(
 )
 
 app.get('/', (request, response) => {
-  response.json({ info: 'Node.js, Express, and Postgres API' })
+  response.json({ info: 'API feita com node, express e postegresql' })
 })
 
 app.get('/curriculo', db.getCurriculo)
